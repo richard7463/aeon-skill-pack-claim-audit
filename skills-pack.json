@@ -4,7 +4,7 @@
   "description": "Truth-of-what-was-said for an unattended Aeon instance: extract the checkable claims from recent run logs, re-verify each against its own authoritative source, grade the evidence E0-E4, and contradict the ones that do not survive.",
   "author": "richard7463",
   "license": "MIT",
-  "homepage": "https://github.com/richard7463/a2h-onus",
+  "homepage": "https://github.com/richard7463/aeon-skill-pack-claim-audit",
   "skills": [
     {
       "slug": "claim-audit",
