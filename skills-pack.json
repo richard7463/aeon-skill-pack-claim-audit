@@ -12,10 +12,12 @@
       "path": "skills/claim-audit",
       "description": "Verify the factual claims in recent notifications against their own sources. Notifies only when something is contradicted or the state changes.",
       "group": "verification",
-      "category": "evolution",
+      "category": "dev",
       "recommended": true,
       "schedule": "daily",
-      "default_enabled": false
+      "default_enabled": false,
+      "secrets_required": [],
+      "capabilities": ["external_api", "sends_notifications"]
     }
   ]
 }

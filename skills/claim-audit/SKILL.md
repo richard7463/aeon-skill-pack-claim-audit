@@ -4,7 +4,7 @@ description: Check whether the factual claims this instance reports actually hol
 scorable: false  # meta skill: audits other skills' output, has no single gradable artifact
 metadata:
   title: Claim Audit
-  category: evolution
+  category: dev
   mode: write
   var: ""
   tags:
