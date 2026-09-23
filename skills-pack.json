@@ -1,0 +1,21 @@
+{
+  "name": "Claim Audit",
+  "version": "1.0.0",
+  "description": "Truth-of-what-was-said for an unattended Aeon instance: extract the checkable claims from recent run logs, re-verify each against its own authoritative source, grade the evidence E0-E4, and contradict the ones that do not survive.",
+  "author": "richard7463",
+  "license": "MIT",
+  "homepage": "https://github.com/richard7463/a2h-onus",
+  "skills": [
+    {
+      "slug": "claim-audit",
+      "name": "Claim Audit",
+      "path": "skills/claim-audit",
+      "description": "Verify the factual claims in recent notifications against their own sources. Notifies only when something is contradicted or the state changes.",
+      "group": "verification",
+      "category": "evolution",
+      "recommended": true,
+      "schedule": "daily",
+      "default_enabled": false
+    }
+  ]
+}
