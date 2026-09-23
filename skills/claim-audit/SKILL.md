@@ -133,8 +133,10 @@ For each claim, in order:
 4. Assign the grade and the verdict.
 
 If a fetch fails, record the true reason — `http-403`, `timeout`, `empty`, `no-pointer`.
-**Never write "sandbox", "blocked", or "env not available"** — those are the stale excuses
-that trained the operator to ignore failures. An unreachable source is an honest E1.
+**Never use "sandbox", "blocked", or "env not available" as a vague excuse**. Those are the
+stale excuses that trained the operator to ignore failures. If the runtime really did refuse
+the request, say so with the concrete signal (e.g. `blocked: egress-denied` plus the error
+line) instead of hiding it. An unreachable source is an honest E1.
 
 ## 3. Decide whether this is worth a notification
 

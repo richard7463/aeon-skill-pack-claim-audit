@@ -14,7 +14,7 @@
       "group": "verification",
       "category": "dev",
       "recommended": true,
-      "schedule": "daily",
+      "schedule": "0 12 * * *",
       "default_enabled": false,
       "secrets_required": [],
       "capabilities": ["external_api", "sends_notifications"]
