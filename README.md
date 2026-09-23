@@ -18,7 +18,7 @@ claim-audit    →  was what it said true?
 ## Install
 
 ```bash
-bin/install-skill-pack richard7463/aeon-claim-audit
+bin/install-skill-pack richard7463/aeon-skill-pack-claim-audit
 ```
 
 Or copy `skills/claim-audit/` into `skills/` and enable it in `aeon.yml`.
